@@ -66,7 +66,7 @@ export default function Kontak() {
         <div className="container">
           <h1 style={{ fontSize: '2.5rem', fontWeight: 800, color: 'white', marginBottom: '0.5rem' }}>Hubungi Kami</h1>
           <p style={{ opacity: 0.9, fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-            Hubungi kantor kelurahan atau ajukan pengaduan/saran seputar fasilitas dan pelayanan di lingkungan Mekarsari.
+            Hubungi kantor kelurahan atau ajukan pengaduan/saran seputar fasilitas dan pelayanan di lingkungan Kelurahan Pasarbatang.
           </p>
         </div>
       </section>

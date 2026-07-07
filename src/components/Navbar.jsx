@@ -23,9 +23,9 @@ export default function Navbar() {
             <div>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <span className="logo-text" style={{ fontSize: '1.3rem', fontWeight: 800 }}>
-                  Kelurahan <span style={{ color: 'var(--color-primary)' }}>Mekarsari</span>
+                  Kelurahan <span style={{ color: 'var(--color-primary)' }}>Pasarbatang</span>
                 </span>
-                <span className="logo-subtext">Kec. Kebayoran, Kota Jakarta Selatan</span>
+                <span className="logo-subtext">Kec. Brebes, Kab. Brebes</span>
               </div>
             </div>
           </Link>

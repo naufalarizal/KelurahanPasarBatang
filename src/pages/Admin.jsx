@@ -728,7 +728,7 @@ export default function Admin() {
                       <input 
                         type="text" 
                         className="form-control"
-                        placeholder="https://source.unsplash.com/..."
+                        placeholder="https://arahpantura.id/wp-content/uploads/2023/07/IMG_20230715_193622-e1689424690439.jpg"
                         style={{ padding: '0.5rem 0.75rem', fontSize: '0.9rem' }}
                         value={newNews.gambar_url}
                         onChange={(e) => setNewNews({ ...newNews, gambar_url: e.target.value })}

@@ -3,12 +3,12 @@ import { MOCK_OFFICIALS } from '../mockData';
 import { ShieldCheck, Target, Award, Users, MapPin, Milestone } from 'lucide-react';
 
 export default function Profil() {
-  const visi = "Mewujudkan Kelurahan Mekarsari yang Bersih, Tertib, Sejahtera, dan Responsif berbasis Pelayanan Prima Berbantuan Teknologi di Tahun 2029.";
+  const visi = "Mewujudkan Kelurahan Pasarbatang yang Maju, Nyaman, Sejahtera, dan Responsif Melalui Pelayanan Publik Berbasis Digital dan Pemberdayaan Masyarakat.";
   const misi = [
-    "Meningkatkan kualitas tata kelola pelayanan publik yang cepat, tepat, ramah, dan bebas pungli.",
-    "Menggalakkan program kebersihan dan kesehatan lingkungan melalui pelestarian bank sampah dan penghijauan terpadu.",
-    "Mendorong kesejahteraan sosial ekonomi warga dengan pemberdayaan UMKM lokal dan program pembinaan keterampilan.",
-    "Mewujudkan keamanan dan ketertiban lingkungan yang kondusif melalui sinergi tiga pilar (Lurah, Babinsa, Bhabinkamtibmas) dan peningkatan keaktifan pos ronda."
+    "Meningkatkan kualitas tata kelola pemerintahan kelurahan yang transparan, akuntabel, dan cepat melalui pemanfaatan teknologi informasi.",
+    "Mendorong kemandirian ekonomi warga dengan mengoptimalkan potensi UMKM lokal, pasar, dan sektor industri rumah tangga.",
+    "Mewujudkan lingkungan pemukiman yang bersih, sehat, dan tertib melalui pengelolaan sarana prasarana serta keaktifan gotong royong masyarakat.",
+    "Memperkuat stabilitas keamanan, ketenteraman, dan kerukunan antarwarga melalui sinergi yang solid bersama Babinsa, Bhabinkamtibmas, dan tokoh masyarakat."
   ];
 
   const batasWilayah = {
@@ -45,21 +45,21 @@ export default function Profil() {
         }}>
           <div>
             <span style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase' }}>Lintasan Sejarah</span>
-            <h2 style={{ fontSize: '2.25rem', margin: '0.5rem 0 1.5rem 0', fontFamily: 'var(--font-display)' }}>Sejarah Kelurahan Mekarsari</h2>
+            <h2 style={{ fontSize: '2.25rem', margin: '0.5rem 0 1.5rem 0', fontFamily: 'var(--font-display)' }}>Sejarah Kelurahan Pasarbatang</h2>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.25rem' }}>
-              Nama **Mekarsari** secara etimologi berasal dari kata *Mekar* yang berarti tumbuh berkembang dan *Sari* yang bermakna inti atau bunga terindah. Didirikan pada awal tahun 1980-an sebagai pemekaran wilayah pertanian perkebunan, kelurahan ini berkembang pesat menjadi kawasan pemukiman perkotaan yang asri di selatan Jakarta.
+            Nama **Pasarbatang** secara historis berakar dari keberadaan pusat niaga atau pasar tradisional yang menjadi urat nadi perekonomian masyarakat Brebes sejak masa lampau. Sebagai salah satu wilayah penopang pusat pemerintahan di Kecamatan Brebes, wilayah ini bertransformasi dari kawasan pemukiman padat berbasis perdagangan dan industri rumah tangga menjadi kelurahan kota yang dinamis.
             </p>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.25rem' }}>
-              Dalam perjalanan sejarahnya, Kelurahan Mekarsari beberapa kali mendapatkan penghargaan di tingkat kota administratif Jakarta Selatan atas prestasi partisipasi gotong royong warga, integrasi bank sampah percontohan, serta digitalisasi pelayanan administrasi warga tercepat.
+            Dalam perjalanan sejarahnya, Kelurahan Pasarbatang terus aktif dalam pembangunan daerah Kabupaten Brebes, baik melalui penguatan sektor UMKM lokal, pemeliharaan kerukunan sosial warga yang majemuk, hingga pelestarian budaya gotong royong di sepanjang kawasan strategis dekat aliran Sungai Pemali.
             </p>
             <p style={{ color: 'var(--color-text-muted)' }}>
-              Kini, di era modern, Kelurahan Mekarsari terus berbenah mengadopsi teknologi informasi untuk mempercepat pelayanan kependudukan guna menjamin hak dan kesejahteraan seluruh warganya.
+            Kini, di era modern, Kelurahan Pasarbatang terus berbenah dengan mengadopsi teknologi informasi untuk mempercepat pelayanan kependudukan demi mewujudkan tata kelola pemerintahan kelurahan yang responsif, transparan, dan inklusif.
             </p>
           </div>
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800&h=550" 
-              alt="Gedung Kelurahan Mekarsari"
+              src="https://radartegal.disway.id/upload/2da146a7f7419fd0686632f8ee2ad7e3.jpg" 
+              alt="Kator Kelurahan Pasarbatang"
               style={{
                 width: '100%',
                 height: '380px',
@@ -206,25 +206,25 @@ export default function Profil() {
             alignItems: 'center'
           }}>
             <div>
-              <span style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase' }}>Batas Administratif</span>
-              <h2 style={{ fontSize: '2.25rem', margin: '0.5rem 0 1.5rem 0', fontFamily: 'var(--font-display)' }}>Geografis Wilayah Kelurahan</h2>
-              <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem' }}>
-                Kelurahan Mekarsari menempati wilayah seluas kurang lebih 240 hektar (2.4 Km²) yang didominasi kawasan hunian perkotaan, fasilitas pendidikan umum, dan pusat perdagangan UMKM.
-              </p>
+                <span style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase' }}>Batas Administratif</span>
+                <h2 h2 style={{ fontSize: '2.25rem', margin: '0.5rem 0 1.5rem 0', fontFamily: 'var(--font-display)' }}>Geografis Wilayah Kelurahan</h2>
+                <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem' }}>
+                Kelurahan Pasarbatang terletak strategis di pusat Kecamatan Brebes yang berbatasan langsung dengan aliran Kali Pemali di sebelah barat. Wilayah ini didominasi oleh kawasan pemukiman perkotaan yang padat, pusat perdagangan lokal, serta sentra industri rumah tangga dan UMKM yang menjadi penggerak ekonomi warga.
+                </p>
               
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', marginBottom: '2rem' }}>
                 <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
                   <MapPin size={20} style={{ color: 'var(--color-primary)' }} />
                   <div>
                     <strong style={{ display: 'block', fontSize: '0.85rem' }}>Ketinggian Rata-rata</strong>
-                    <span style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)' }}>32 Meter DPL</span>
+                    <span style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)' }}>4 Meter DPL</span>
                   </div>
                 </div>
                 <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
                   <Milestone size={20} style={{ color: 'var(--color-primary)' }} />
                   <div>
                     <strong style={{ display: 'block', fontSize: '0.85rem' }}>Koordinat</strong>
-                    <span style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)' }}>6.2088° S, 106.8456° E</span>
+                    <span style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)' }}>6.8475° S, 109.0436° E</span>
                   </div>
                 </div>
               </div>
@@ -247,8 +247,8 @@ export default function Profil() {
                 border: '1px solid var(--color-border)'
               }}>
                 <iframe 
-                  title="Peta Kelurahan Mekarsari"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d15862.911364506041!2d106.77298647035515!3d-6.299525712173456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1ee32ca7a65%3s0x2e69f1ee34b22fb7%3A0xeab50d4b998cfb15!2sCilandak+Barat%2C+Cilandak%2C+South+Jakarta+City%2C+Jakarta!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid"
+                  title="Peta Kelurahan Pasarbatang"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15843.435532057393!2d109.04358872719293!3d-6.847525389656819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fbc5cfbf7ba2d%3A0xd93f64e76a1f3de2!2sPasar%20Batang%2C%20Kec.%20Brebes%2C%20Kabupaten%20Brebes%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1715000000000!5m2!1sid!2sid"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }}

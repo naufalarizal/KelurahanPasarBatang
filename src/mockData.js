@@ -1,10 +1,10 @@
 // Data Simulasi untuk Demo Website Kelurahan Mekarsari
 
 export const MOCK_STATS = [
-  { label: 'Jumlah Penduduk', value: '14,850', subtext: 'Jiwa' },
-  { label: 'Luas Wilayah', value: '2.4', subtext: 'Km²' },
-  { label: 'Rukun Warga (RW)', value: '12', subtext: 'Unit RW' },
-  { label: 'Rukun Tetangga (RT)', value: '84', subtext: 'Unit RT' },
+  { label: 'Jumlah Penduduk', value: '16,240', subtext: 'Jiwa' },
+  { label: 'Luas Wilayah', value: '3.12', subtext: 'Km²' },
+  { label: 'Rukun Warga (RW)', value: '11', subtext: 'Unit RW' },
+  { label: 'Rukun Tetangga (RT)', value: '62', subtext: 'Unit RT' },
 ];
 
 export const MOCK_OFFICIALS = [

@@ -194,8 +194,8 @@ export default function Home() {
               zIndex: 1
             }}></div>
             <img 
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400&h=500" 
-              alt="Lurah Mekarsari"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bupati_Brebes_Paramitha_Widya_Kusuma.jpg/1280px-Bupati_Brebes_Paramitha_Widya_Kusuma.jpg" 
+              alt="Bu Bupati Brebes Paramitha Widya Kusuma"
               style={{
                 width: '100%',
                 maxWidth: '380px',
@@ -216,24 +216,24 @@ export default function Home() {
               fontSize: '0.9rem',
               textTransform: 'uppercase',
               letterSpacing: '1px'
-            }}>Sambutan Pimpinan</span>
+            }}>Sambutan Bupati</span>
             <h2 style={{
               fontSize: '2.25rem',
               margin: '0.5rem 0 1.5rem 0',
               fontFamily: 'var(--font-display)'
-            }}>Sambutan Lurah Mekarsari</h2>
+            }}>Bu Bupati Brebes Paramitha Widya Kusuma</h2>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: '1rem', fontStyle: 'italic' }}>
               "Assalamu’alaikum Warahmatullahi Wabarakatuh,"
             </p>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.25rem', fontSize: '1rem' }}>
-              Selamat datang di website profil resmi Kelurahan Mekarsari. Media komunikasi ini kami persembahkan sebagai sarana keterbukaan informasi publik dan peningkatan mutu pelayanan. 
+              Selamat datang di website profil resmi Kelurahan Pasarbatang, Kecamatan Brebes. Media komunikasi digital ini kami persembahkan sebagai wujud nyata komitmen keterbukaan informasi publik serta upaya peningkatan mutu pelayanan yang lebih dekat, cepat, dan transparan. 
             </p>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem', fontSize: '1rem' }}>
-              Melalui portal ini, warga dapat melihat perkembangan kelurahan, mengajukan administrasi secara mandiri, dan berinteraksi langsung dengan pamong kelurahan. Kami berkomitmen untuk terus berinovasi demi mewujudkan kelurahan yang bersih, tertib, sejahtera, dan ramah teknologi.
+              Melalui portal ini, seluruh warga Pasarbatang dapat dengan mudah mengakses informasi perkembangan wilayah, transparansi program kerja, hingga pengurusan administrasi kependudukan. Kami berkomitmen untuk terus berinovasi dan bersinergi demi mewujudkan Kelurahan Pasarbatang yang maju, nyaman, sejahtera, dan tanggap teknologi.
             </p>
             <div>
-              <h4 style={{ margin: 0, fontSize: '1.2rem' }}>Drs. H. Mulyadi, M.Si</h4>
-              <p style={{ color: 'var(--color-primary)', fontWeight: 600, fontSize: '0.9rem', margin: 0 }}>Lurah Mekarsari</p>
+              <h4 style={{ margin: 0, fontSize: '1.2rem' }}>Hj. Paramitha Widya Kusuma, S.E., M.M.</h4>
+              <p style={{ color: 'var(--color-primary)', fontWeight: 600, fontSize: '0.9rem', margin: 0 }}>Bupati Brebes</p>
             </div>
           </div>
         </div>
